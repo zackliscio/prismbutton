@@ -1,3 +1,4 @@
+(function(){
 //Lets set the name space so that we don't overwrite global functions on other peoples web page.
 var PrismButton = {}	
 	// SHOW POP-OVER
@@ -43,3 +44,4 @@ PrismButton.closePopOver = function(divID) {
    	 link.media = 'all';
    	 head.appendChild(link);
 	}
+})();
